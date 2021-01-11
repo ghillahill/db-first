@@ -1,0 +1,13 @@
+id                      INT, PRIMARY KEY (=> AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
+marca                   VARCHAR(15), NOT NULL
+modello                 VARCHAR(15), NOT NULL
+prezzo         			DECIMAL(9, 2), NOT NULL
+km						INT, NOT NULL
+anno                    YEAR, NOT NULL
+tipo					VARCHAR(15), NULL
+cambio					VARCHAR(15), NOT NULL
+carburante				VARCHAR(15), NOT NULL
+classe emissione		TINYINT, NOT NULL
+inserzionista			TINYINT, NOT NULL, UNIQUE
+nazione					VARCHAR(15), NOT NULL
+note                    VARCHAR(255), NULL
